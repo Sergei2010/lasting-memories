@@ -8,6 +8,11 @@
       content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
     />
     <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
   </head>
   <body>
     <!-- Начало: Данный блок удалять нельзя -->
@@ -29,6 +34,272 @@
     </div>
     <!-- Конец -->
 
-    <div class="main"></div>
+    <div class="main">
+      <!-- Header -->
+      <header class="header">
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a class="header__link" href="">Collections</a></li>
+            <li class="header__item"><a class="header__link" href="">Products</a></li>
+            <li class="header__item"><a class="header__link" href="">Inspiration</a></li>
+            <li class="header__item"><a class="header__link" href="">About us</a></li>
+            <li class="header__item"><a class="header__link" href="">Find a dealer</a></li>
+          </ul>
+        </nav>
+        <div class="header__title">
+          <p class="header__title-item1">Lasting</p>
+          <p class="header__title-item2">memories</p>
+        </div>
+      </header>
+      <!-- Header -->
+
+      <!-- Section Heroes -->
+      <section class="hero">
+        <div class="hero__item1">
+          <div class="hero__title-main">making</div>
+          <div class="hero__title">tables</div>
+          <div class="hero__title">heroes</div>
+          <div class="hero__text">
+            Chairs, cabinets, but especially tables by Joli are durable products, designed to last
+            and to be used intensively.
+          </div>
+          <div class="hero__item1-buttons">
+            <button class="btn hero__about">about us</button>
+            <a class="link hero__link" href="#">collection</a>
+          </div>
+        </div>
+        <div class="hero__item2">
+          <figure class="hero__figure1">
+            <img src="img/table-chairs.jpg" alt="table and chairs image" />
+          </figure>
+          <figure class="hero__figure2">
+            <figcaption class="hero__figure2-figcaption">region</figcaption>
+            <img src="img/table.jpg" alt="table image" />
+          </figure>
+          <figure class="hero__figure3">
+            <img src="img/chair.jpg" alt="cair image" />
+          </figure>
+        </div>
+      </section>
+      <!-- Section Heroes -->
+
+      <!-- Section Collections -->
+      <section class="collections">
+        <div class="collections__header">
+          <div class="collections__title">our</div>
+          <div class="collections__title">collections</div>
+          <nav class="collections__nav">
+            <ul class="collections__list">
+              <li class="collections__item"><a class="collections__link" href="">central</a></li>
+              <li class="collections__item"><a class="collections__link" href="">olivo</a></li>
+              <li class="collections__item"><a class="collections__link" href="">morisot</a></li>
+              <li class="collections__item"><a class="collections__link" href="">curve</a></li>
+              <li class="collections__item">
+                <a class="collections__link" href="">wire</a>
+              </li>
+              <li class="collections__item"><a class="collections__link" href="">marguerite</a></li>
+              <li class="collections__item"><a class="collections__link" href="">fizz</a></li>
+              <li class="collections__item"><a class="collections__link" href="">farael</a></li>
+              <li class="collections__item">
+                <a class="collections__link" href="">chagall</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="collections__details">
+          <figure class="collections__figure">
+            <img src="img/table-center.jpg" alt="table image" />
+            <figcaption class="collections__figcaption">
+              <p>ready to become the centerpiece of your home</p>
+              <a href="#"><img src="img/right-arrow.svg" alt="right arrow" /></a>
+            </figcaption>
+          </figure>
+          <figure class="collections__figure">
+            <img src="img/two-chairs.jpg" alt="two chairs image" />
+            <figcaption class="collections__figcaption">
+              <p>believe us, this will be a real eye-catcher</p>
+              <a href="#"><img src="img/right-arrow.svg" alt="right arrow" /></a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="collections__pages">
+          <p>
+            <a href="#"><img src="img/right-arrow.svg" alt="right arrow" /></a>
+          </p>
+          <p><span>1</span><span>/</span><span>9</span></p>
+          <p>
+            <a href="#"><img src="img/right-arrow.svg" alt="right arrow" /></a>
+          </p>
+        </div>
+      </section>
+      <!-- Section Collections -->
+      <!-- Section Find Dealer -->
+      <section class="find-dealer">
+        <div class="find-dealer__info">
+          <div class="find-dealer__title"><span>find</span><span>a</span></div>
+          <div class="find-dealer__title">dealer</div>
+          <div class="find-dealer__text">
+            We work together with dealers in 19 countries, all over the world. Find out which one is
+            closest to you.
+          </div>
+          <div class="find-dealer__location">
+            <p>Your location</p>
+          </div>
+          <button class="btn dealer__search">search</button>
+        </div>
+        <div class="find-dealer__img">
+          <figure><img src="img/bg.svg" alt="" /></figure>
+        </div>
+      </section>
+      <!-- Section Find Dealer -->
+      <!-- Section Ceremonies&Meetings -->
+      <section class="ceremonies-meetings">
+        <div class="ceremonies-meetings__title">terrace</div>
+        <div class="ceremonies-meetings__title">ceremonies & meetings</div>
+        <button class="btn ceremonies-meetings__inspire">inspire me</button>
+      </section>
+      <!-- Section Ceremonies&Meetings -->
+      <!-- Section Manages -->
+      <section class="manages">
+        <div class="manages__title">joli manages to</div>
+        <div class="manages__title">offer designs</div>
+        <div class="manages__title">that are both</div>
+        <div class="manages__title">timelessly modern</div>
+        <div class="manages__title">and trendy</div>
+        <button class="btn manages__about">about us</button>
+      </section>
+      <!-- Section Manages -->
+      <!-- Section Become Dealer -->
+      <section class="become-dealer">
+        <figure class="become-dealer__img">
+          <img src="img/bg2.svg" alt="bg2 image" />
+        </figure>
+        <div class="become-dealer__info">
+          <div class="become-dealer__title">become<span>a</span></div>
+          <div class="become-dealer__title">dealer</div>
+          <div class="become-dealer__text">
+            Do you want to become a Joli retailer? Please submit the following form and we will
+            contact you!
+          </div>
+          <button class="btn become-dealer__learn">learn more</button>
+        </div>
+      </section>
+      <!-- Section Become Dealer -->
+      <!-- Section Request -->
+      <section class="request">
+        <figure class="request__img">
+          <img src="img/man.jpg" alt="man image" />
+        </figure>
+        <div class="request__info"></div>
+      </section>
+      <!-- Section Request -->
+      <!-- Section Form -->
+      <section class="section-form">
+        <form class="section-form__form" action="">
+          <div class="section-form__title">
+            <div class="section-form__text">request our</div>
+            <div class="section-form__text">2022 catalogue.</div>
+          </div>
+          <div class="section-form__inputs">
+            <label class="section-form__label" for="email">
+              <figure class="section-form__label">
+                <figcaption class="section-form__figcaption">
+                  <span>email address</span>
+                  <img class="section-form__img" src="img/star.svg" alt="star image" />
+                </figcaption>
+              </figure>
+            </label>
+            <input class="section-form__input" id="email" type="text" />
+            <div class="btn section-form__agree">
+              <span class="section-form__agree-text">I agree with the</span>
+              <span><a class="section-form__link" href="">Privacy & Cookie Policy</a></span>
+              <span class="section-form__agree-text">of Joli</span>
+            </div>
+          </div>
+          <button class="btn section-form__send"><p>send</p></button>
+        </form>
+      </section>
+      <!-- Section Form -->
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer__list-links">
+          <figure class="footer__logo">
+            <img src="img/logo1.png" alt="logo image" />
+          </figure>
+          <div class="footer__list-collections">
+            <ul class="footer__ul">
+              <li class="footer__li">
+                <a class="footer__link-title" href="">collections</a>
+              </li>
+              <li class="footer__li"><a class="footer__link" href="">wire</a></li>
+              <li class="footer__li"><a class="footer__link" href="">curve</a></li>
+              <li class="footer__li"><a class="footer__link" href="">fizz</a></li>
+              <li class="footer__li"><a class="footer__link" href="">marguerite</a></li>
+            </ul>
+          </div>
+          <div class="footer__lis-products">
+            <ul class="footer__ul">
+              <li class="footer__li"><a class="footer__link-title" href="">products</a></li>
+              <li class="footer__li"><a class="footer__link" href="">tables</a></li>
+              <li class="footer__li"><a class="footer__link" href="">chairs</a></li>
+              <li class="footer__li"><a class="footer__link" href="">cabinets</a></li>
+              <li class="footer__li"><a class="footer__link" href="">accessories</a></li>
+            </ul>
+          </div>
+          <div class="footer__list-inspiration">
+            <ul class="footer__ul">
+              <li class="footer__li"><a class="footer__link-title" href="">inspiration</a></li>
+              <li class="footer__li"><a class="footer__link" href="">joli days 2022</a></li>
+              <li class="footer__li"><a class="footer__link" href="">terrace</a></li>
+              <li class="footer__li"><a class="footer__link" href="">ceremonies & meetings</a></li>
+            </ul>
+          </div>
+          <div class="footer__list-about">
+            <ul class="footer__ul">
+              <li class="footer__li"><a class="footer__link-title" href="">about us</a></li>
+              <li class="footer__li"><a class="footer__link" href="">materials</a></li>
+              <li class="footer__li"><a class="footer__link" href="">find a dealer</a></li>
+              <li class="footer__li"><a class="footer__link" href="">professionals</a></li>
+              <li class="footer__li"><a class="footer__link" href="">news</a></li>
+            </ul>
+          </div>
+          <div class="footer__list-contact">
+            <ul class="footer__ul">
+              <li class="footer__li"><a class="footer__link-title" href="">contact</a></li>
+              <li class="footer__li"><a class="footer__link" href="">industrielaan 5</a></li>
+              <li class="footer__li"><a class="footer__link" href="">8520 kortrijk</a></li>
+              <li class="footer__li"><a class="footer__link" href="">info@joli.be</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__list-info">
+          <ul class="footer__ul-info">
+            <li class="footer__li"><a class="footer__link" href="">privacy & cookie policy</a></li>
+            <li class="footer__li"><a class="footer__link" href="">disclaimer</a></li>
+            <li class="footer__li"><a class="footer__link" href="">made by skinn</a></li>
+            <li class="footer__li">
+              <ul class="footer-social">
+                <li class="footer-social__li">
+                  <a class="footer-social__link" href=""
+                    ><img class="footer-social__img" src="img/facebook.svg" alt="facebok image"
+                  /></a>
+                </li>
+                <li class="footer-social__li">
+                  <a class="footer-social__link" href=""
+                    ><img class="footer-social__img" src="img/ins.svg" alt="ins image"
+                  /></a>
+                </li>
+                <li class="footer-social__li">
+                  <a class="footer-social__link" href=""
+                    ><img class="footer-social__img" src="img/p.svg" alt="p image"
+                  /></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <!-- Footer -->
+    </div>
   </body>
 </html>
